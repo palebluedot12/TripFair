@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606257059725",
+    "project_id": "tripfair-22b61",
+    "storage_bucket": "tripfair-22b61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606257059725:android:2245edec0b966c86904fc4",
+        "android_client_info": {
+          "package_name": "com.example.tripfair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_e-SKDvUQmYmN8XqE2Ng7kTix_bmO1hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
