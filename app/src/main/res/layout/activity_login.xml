@@ -25,6 +25,11 @@
         android:id="@+id/et_pwd"
         android:inputType="textPassword"/>
 
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/SignIn_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
