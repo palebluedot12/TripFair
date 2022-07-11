@@ -33,8 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         mDatabaseRef = FirebaseDatabase.getInstance().getReference("TripFair");
 
-        mEtemail = (EditText) findViewById(R.id.et_email);
-        mEtPwd = (EditText) findViewById(R.id.et_pwd);
+
         mBtnRegister = (Button) findViewById(R.id.btn_register);
 
         mBtnRegister.setOnClickListener(new View.OnClickListener() {

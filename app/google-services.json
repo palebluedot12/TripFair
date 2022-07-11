@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "606257059725-41nh7o9vibsdv2ljp82hc3sa9naf23f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "fc5c878d9514bf2953878c95483ad3cd4746222d"
+          }
+        },
+        {
           "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
           "client_type": 3
         }
