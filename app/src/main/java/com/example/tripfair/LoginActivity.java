@@ -1,9 +1,15 @@
 package com.example.tripfair;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,11 +28,23 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.kakao.sdk.auth.model.OAuthToken;
+import com.kakao.sdk.user.UserApiClient;
+import com.kakao.sdk.user.model.User;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.functions.Function2;
 
 public class LoginActivity extends AppCompatActivity {
 
     private SignInButton signInButton;
     private GoogleSignInClient mGoogleSignInClient;
+    private View btn_login_kakao;
+    private Button btn_logout;
     private String TAG="mainTag";
     private FirebaseAuth mAuth;
     private int RC_SIGN_IN=123;
@@ -37,6 +55,48 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         signInButton = findViewById(R.id.SignIn_Button);
+        btn_login_kakao = findViewById(R.id.btn_login_kakao);
+        btn_logout = findViewById(R.id.btn_logout);
+
+        Function2<OAuthToken, Throwable, Unit> callback = new Function2<OAuthToken, Throwable, Unit>() {
+            @Override
+            public Unit invoke(OAuthToken oAuthToken, Throwable throwable) {
+                if (oAuthToken != null) { //성공했을때
+                    // TBD
+                }
+                if (throwable != null) { //오류있을때
+                    // TBD
+                }
+                updateKakaoLoginUi();
+                return null;
+            }
+        };
+
+        btn_login_kakao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(UserApiClient.getInstance().isKakaoTalkLoginAvailable(LoginActivity.this)) {
+                    UserApiClient.getInstance().loginWithKakaoTalk(LoginActivity.this, callback);
+                } else {
+                    UserApiClient.getInstance().loginWithKakaoAccount(LoginActivity.this, callback);
+                }
+            }
+        });
+
+        btn_logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                UserApiClient.getInstance().logout(new Function1<Throwable, Unit>() {
+                    @Override
+                    public Unit invoke(Throwable throwable) {
+                        updateKakaoLoginUi();
+                        return null;
+                    }
+                });
+            }
+        });
+
+        updateKakaoLoginUi();
 
         // [START config_signin]
         // Configure Google Sign In
@@ -160,5 +220,21 @@ public class LoginActivity extends AppCompatActivity {
                 });
     }
 
+    private void updateKakaoLoginUi() {
+        UserApiClient.getInstance().me(new Function2<User, Throwable, Unit>() {
+            @Override
+            public Unit invoke(User user, Throwable throwable) {
+                if (user != null){ //로그인 성공시
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(intent);
+
+                } else{
+                    btn_login_kakao.setVisibility(View.VISIBLE);
+                    btn_logout.setVisibility(View.GONE);
+                }
+                return null;
+            }
+        });
+    }
 
 }

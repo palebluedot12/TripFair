@@ -31,24 +31,23 @@
         android:layout_height="wrap_content"
         android:src="@drawable/sns_login" />
 
-
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"/>
 
     <ImageButton
         android:id="@+id/btn_login_kakao"
         android:layout_width="350dp"
         android:layout_height="54dp"
         android:layout_margin="10dp"
-        android:background="@drawable/kakao_login"
-        android:text="로그인"
-
-        />
+        android:background="@drawable/kakao_login"/>
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/SignIn_Button"
         android:layout_width="350dp"
         android:layout_height="54dp"
         android:layout_marginTop="10dp"/>
-
-
 
 </LinearLayout>

@@ -2,4 +2,6 @@
     <string name="app_name">TripFair</string>
     <string name="some_id">함께 만들어가는 <b>공정의</b> 가치</string>
     <string name="hello1"><b>트립페어</b>에 오신것을 환영합니다.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

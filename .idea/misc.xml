@@ -3,24 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1075" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable/background_rounding.xml" value="0.233" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check_circle_gray.xml" value="0.1655" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check_color.xml" value="0.138" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check_small.xml" value="0.1655" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_tripfair_splash.xml" value="0.1655" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_x.xml" value="0.1655" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/font-v26/fontstyle.xml" value="0.11822916666666666" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/font/fontstyle.xml" value="0.1171875" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_login.xml" value="0.176" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_register.xml" value="0.33" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_splash.xml" value="0.1" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable-v24/ic_home.xml" value="0.2925" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1535" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/edittext_custom_nickname.xml" value="0.133" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_camera.xml" value="0.219" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check.xml" value="0.223" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check_circle_color.xml" value="0.219" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check_circle_gray.xml" value="0.219" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check_color.xml" value="0.219" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_check_small.xml" value="0.223" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_double_check.xml" value="0.223" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_map.xml" value="0.2925" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_rectangle.xml" value="0.2255" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_rectangle_profile.xml" value="0.223" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_tripfair_splash.xml" value="0.264" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/ic_x.xml" value="0.1535" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/rectangle_1.xml" value="0.2005" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/splash.xml" value="0.2635" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/font-v26/font.xml" value="0.196875" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/font/font.xml" value="0.17037037037037037" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_any.xml" value="0.23026315789473684" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_map.xml" value="0.21973684210526315" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_mypage.xml" value="0.21973684210526315" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/menu/bottom_menu.xml" value="0.21973684210526315" />
       </map>
     </option>
   </component>
