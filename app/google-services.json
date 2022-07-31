@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "606257059725-kmcedh11fvp08i5sd3cu3trivqfk4ste.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "64a35822dfbfa1cddb44807541d21c231bfb570f"
+          }
+        },
+        {
           "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
           "client_type": 3
         }
