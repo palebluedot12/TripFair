@@ -12,7 +12,7 @@
         android:layout_width="320dp"
         android:layout_height="69dp"
         android:layout_marginBottom="30dp"
-        android:src="@drawable/tripfair" />
+        android:src="@drawable/ic_tripfair" />
 
     <TextView
         android:id="@+id/textView2"
