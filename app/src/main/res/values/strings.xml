@@ -4,4 +4,6 @@
     <string name="hello1"><b>트립페어</b>에 오신것을 환영합니다.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kakao_app_key">82d1679f96540836f0507b2147ff22d0</string>
+
 </resources>

@@ -3,13 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MypageFragment">
+    <TextView
+        android:id="@+id/tv_second_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" "
+        android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/tv_second_nickname"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Mypage"
-        android:gravity="center"
-        android:textSize="30dp"/>
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" "
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_second_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그아웃하기" />
+
+    <Button
+        android:id="@+id/btn_second_resign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="탈퇴하기" />
 
 </LinearLayout>
