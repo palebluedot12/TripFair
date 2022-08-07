@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="285dp"
-        android:layout_height="43dp"
-        android:src="@drawable/tripfair"
+        android:layout_width="270dp"
+        android:layout_height="38dp"
+        android:src="@drawable/ic_tripfair"
         android:layout_gravity="center"
-        android:layout_margin="12dp" />
+        android:layout_margin="21dp"
+        />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="81dp"
-        android:layout_height="44dp"
-        android:fontFamily="@font/notosanskr_medium"
-        android:includeFontPadding="false"
-        android:text="강원도"
-        android:textColor="@color/black"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="528dp" />
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center"
+        android:src="@drawable/center_test"/>
+
 
     <TextView
         android:id="@+id/textView3"
@@ -36,91 +39,97 @@
         android:text="경기도"
         android:textColor="@color/black"
         android:textSize="28sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="307dp" />
+        android:textStyle="normal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"/>
 
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="380dp"
-        android:layout_height="186dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="85dp" />
 
     <HorizontalScrollView
-        android:layout_width="400dp"
-        android:layout_height="141dp"
-        android:layout_marginBottom="228dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="15dp">
+        android:layout_marginStart="10dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="192dp"
-                android:layout_height="142dp"
-                android:layout_marginRight="20dp"
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="162dp"
+                android:layout_marginEnd="20dp"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="숙박"
+                android:fontFamily="@font/notosanskr_medium"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/sofa_test"/>
 
-            <Button
+            <ImageView
                 android:id="@+id/button8"
-                android:layout_width="192dp"
-                android:layout_height="140dp"
-                android:layout_marginRight="20dp"
+                android:layout_width="212dp"
+                android:layout_height="162dp"
+                android:layout_marginEnd="20dp"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:src="@drawable/sofa_test" />
 
-            <Button
+            <ImageView
                 android:id="@+id/button3"
-                android:layout_width="192dp"
-                android:layout_height="140dp"
-                android:text="Button" />
+                android:layout_width="212dp"
+                android:layout_height="162dp" />
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="81dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:includeFontPadding="false"
+        android:text="강원도"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:layout_marginLeft="10dp" />
 
     <HorizontalScrollView
-        android:layout_width="400dp"
-        android:layout_height="141dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="586dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button
+            <ImageView
                 android:id="@+id/button16"
-                android:layout_width="190dp"
-                android:layout_height="140dp"
+                android:layout_width="210dp"
+                android:layout_height="162dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:src="@drawable/sofa_test" />
 
-            <Button
+            <ImageView
                 android:id="@+id/button15"
-                android:layout_width="190dp"
-                android:layout_height="140dp"
+                android:layout_width="210dp"
+                android:layout_height="162dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:src="@drawable/sofa_test" />
 
-            <Button
+            <ImageView
                 android:id="@+id/button13"
-                android:layout_width="190dp"
-                android:layout_height="140dp"
+                android:layout_width="210dp"
+                android:layout_height="162dp"
                 android:layout_marginRight="20dp"
-                android:text="Button" />
+                android:src="@drawable/sofa_test" />
         </LinearLayout>
     </HorizontalScrollView>
+ </LinearLayout>
+</ScrollView>
 
-</LinearLayout>

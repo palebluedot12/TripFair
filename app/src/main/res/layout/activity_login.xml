@@ -1,57 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    android:gravity="center"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/hg_main_70"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_tripfair" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/sans"
+        android:gravity="center"
+        android:letterSpacing="-0.04"
+        android:text="@string/hello1"
+        android:textColor="@color/sai"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.70" />
+        android:src="@drawable/sns_login" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/hg_main_95"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.95" />
-
-    <LinearLayout
-        android:id="@+id/layout_login_btn_group"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/hg_main_95"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/hg_main_70">
-
-        <Button
-            android:id="@+id/btn_kakao_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="카카오 로그인" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_logout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:visibility="gone"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="gone">
+        android:layout_height="wrap_content"
+        android:text="로그아웃"/>
 
-        <com.kakao.usermgmt.LoginButton
-            android:id="@+id/btn_kakao_login_basic"
-            android:layout_width="0dp"
-            android:layout_height="0dp" />
+    <ImageButton
+        android:id="@+id/btn_login_kakao"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/kakao_login"/>
 
-    </LinearLayout>
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/SignIn_Button"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="10dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
