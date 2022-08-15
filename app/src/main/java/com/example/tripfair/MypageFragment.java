@@ -54,7 +54,7 @@ public class MypageFragment extends Fragment {
         GlobalHelper mGlobalHelper = new GlobalHelper();
         userInfo = mGlobalHelper.getGlobalUserLoginInfo();
 
-    tvSecondUserID.setText("UserId : " + userInfo.get(0));
+      tvSecondUserID.setText("UserId : " + userInfo.get(0));
      tvSecondNickname.setText("Nickname : " + userInfo.get(1));
 
 

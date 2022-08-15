@@ -14,6 +14,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.MenuItem;
 
+import com.example.tripfair.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationBarView;
 
 import java.security.MessageDigest;
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     HomeFragment homeFragment;
     MapFragment mapFragment;
     MypageFragment mypageFragment;
+    GyeonggiFoodFragment gyeonggiFoodFragment;
+    GyeonggiTourFragment gyeonggiTourFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         homeFragment = new HomeFragment();
         mapFragment = new MapFragment();
         mypageFragment = new MypageFragment();
+        gyeonggiFoodFragment = new GyeonggiFoodFragment();
+        gyeonggiTourFragment = new GyeonggiTourFragment();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.containers, homeFragment).commit();
 
@@ -54,9 +59,23 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-
     }
+
+    public void fragmentChange(int index){
+        if(index == 1){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, gyeonggiFoodFragment).commit();
+        }
+        else if(index == 2){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, homeFragment).commit();
+        }
+        else if(index == 3){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, gyeonggiTourFragment).commit();
+        }
+    }
+
 
 
 }

@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.kakao.sdk.user.UserApiClient;
 import com.kakao.sdk.user.model.User;
@@ -26,6 +28,7 @@ import kotlin.jvm.functions.Function2;
 public class HomeFragment extends Fragment {
 
     private Button btn_logout;
+    MainActivity mainActivity;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -47,10 +50,30 @@ public class HomeFragment extends Fragment {
 //                });
 //            }
 //        });
+        TextView gyeonggi_food = (TextView) v.findViewById(R.id.gyeonggi_food);
+        TextView gyeonggi_tour = (TextView) v.findViewById(R.id.gyeonggi_tour);
+
+        gyeonggi_food.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(1);
+            }
+        });
+
+        gyeonggi_tour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(3);
+            }
+        });
 
 
         return v;
     }
+
+
+
+
 
     private void updateKakaoLoginUi() {
         UserApiClient.getInstance().me(new Function2<User, Throwable, Unit>() {
@@ -98,4 +121,6 @@ public class HomeFragment extends Fragment {
             System.out.println(sb.toString());
         }
     }
+
+
 }
