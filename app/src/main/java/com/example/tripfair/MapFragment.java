@@ -14,6 +14,10 @@ import android.widget.TextView;
 
 
 import com.bumptech.glide.Glide;
+import com.example.tripfair.databinding.FragmentGyeonggiTourBinding;
+import com.example.tripfair.databinding.FragmentMapBinding;
+
+import net.daum.mf.map.api.MapView;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -28,16 +32,19 @@ import java.net.URLEncoder;
 
 public class MapFragment extends Fragment {
 
-    String key = "RmQEk8%2FSDU6FE15Ov2cdNj%2FwLmoHZde3XbSSz2Sik3iKbSK2Yqt0IZRY6WcjwaX1eNp50bLHNIzRBakdUmP37g%3D%3D";
-    String data;
-    String image = "";
+    private FragmentMapBinding binding;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_map, container, false);
-        //StrictMode.enableDefaults();
+
+        binding = FragmentMapBinding.inflate(inflater, container, false);
+        View v = binding.getRoot();
+
+        MapView mapView = new MapView(getActivity());
+        ViewGroup mapViewContainer = (ViewGroup) v.findViewById(R.id.map_view);
+        mapViewContainer.addView(mapView);
 
         return v;
     }

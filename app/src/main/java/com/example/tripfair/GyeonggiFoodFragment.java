@@ -6,6 +6,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -58,7 +59,6 @@ public class GyeonggiFoodFragment extends Fragment {
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("경기 맛집"); // 툴바 제목 설정
 
 
-
 //        new Thread(new Runnable() {
 //            @Override
 //            public void run() {
@@ -66,7 +66,7 @@ public class GyeonggiFoodFragment extends Fragment {
 //
 //                // 아래 메소드를 호출하여 XML data를 파싱해서 String 객체로 얻어오기
 //                // 날씨 API
-//                data = getData();
+//                 data = getData();
 //
 //                getActivity().runOnUiThread(new Runnable() {
 //                    @Override
@@ -99,86 +99,87 @@ public class GyeonggiFoodFragment extends Fragment {
      RmQEk8%2FSDU6FE15Ov2cdNj%2FwLmoHZde3XbSSz2Sik3iKbSK2Yqt0IZRY6WcjwaX1eNp50bLHNIzRBakdUmP37g%3D%3D
      &pageNo=1&numOfRows=2&MobileApp=AppTest&MobileOS=ETC&arrange=A&contentTypeId=32&areaCode=4&sigunguCode=4&listYN=Y **/
 
-    String getData(){
-        StringBuffer buffer = new StringBuffer();
-
-        String pageNo = "1";
-        String numOfRows = "2";
-        String MobileApp = "TripFair";
-        String MobileOS = "AND";
-        String arrange = "A";
-        String contentTypeId = "12";
-        String defaultYN = "Y";
-        String contentId = "2820274";
-        String areacodeYN = "1";
-        String addrinfoYN = "Y";
-        String mapinfoYN = "Y";
-        String overviewYN = "Y";
-        String sigunguCode = "1";
-        String firstImageYN = "Y";
-        String listYN = "Y";
-        String catcodeYN = "Y";
-        String serviceKey = "RmQEk8%2FSDU6FE15Ov2cdNj%2FwLmoHZde3XbSSz2Sik3iKbSK2Yqt0IZRY6WcjwaX1eNp50bLHNIzRBakdUmP37g%3D%3D";
-
-        String queryUrl = "http://apis.data.go.kr/B551011/KorService/detailCommon?ServiceKey=" + serviceKey +
-                "&contentTypeId=" + contentTypeId + "&contentId=" + contentId + "&MobileOS=" + MobileOS + "&MobileApp=" + MobileApp +
-                "&defaultYN=" + defaultYN + "&firstImageYN=" + firstImageYN +  "&areacodeYN=" + areacodeYN + "&catcodeYN=" + catcodeYN +
-                "&addrinfoYN=" + addrinfoYN + "&mapinfoYN=" + mapinfoYN + "&overviewYN=" + overviewYN;
-
-        try {
-            URL url= new URL(queryUrl);//문자열로 된 요청 url을 URL 객체로 생성.
-            InputStream is= url.openStream(); //url위치로 입력스트림 연결
-
-            XmlPullParserFactory factory= XmlPullParserFactory.newInstance();
-            XmlPullParser xpp= factory.newPullParser();
-            xpp.setInput( new InputStreamReader(is, "UTF-8") ); //inputstream 으로부터 xml 입력받기
-
-            String tag;
-            xpp.next();
-            int eventType= xpp.getEventType();
-
-            while(eventType != XmlPullParser.END_DOCUMENT){
-                switch(eventType){
-                    case XmlPullParser.START_DOCUMENT:
-                        break;
-
-                    case XmlPullParser.START_TAG:
-                        tag= xpp.getName();//태그 이름 얻어오기
-
-                        if(tag.equals("item"));
-                        else if(tag.equals("addr1")) {
-                            buffer.append("주소 : ");
-                            xpp.next();
-                            buffer.append(xpp.getText());
-                            buffer.append("\n\n");
-                        }
-                        else if(tag.equals("firstimage")) {
-                            buffer.append("사진 : ");
-                            xpp.next();
-                            image = xpp.getText();
-                           // Glide.with(getActivity()).load(image).into(food_image1); //첫번째. food_image id가 전역이 아니라 onCreate 밖에서 안됨.
-                                                                                     //두번째. getActivity()도 밖에서 되는지 모르겠음.
-                            buffer.append("\n\n");
-                        }
-                        break;
-                    case XmlPullParser.TEXT:
-                        break;
-
-                    case XmlPullParser.END_TAG:
-                        tag= xpp.getName();
-                        if(tag.equals("item")) buffer.append("\n");
-                        break;
-                }
-                eventType = xpp.next();
-            }
-
-        } catch (Exception e) {
-            // TODO Auto-generated catch blocke.printStackTrace();
-        }
-        return buffer.toString();//StringBuffer 문자열 객체 반환
-
-
-    }
+//    String getData(){
+//        StringBuffer buffer = new StringBuffer();
+//
+//        String pageNo = "1";
+//        String numOfRows = "2";
+//        String MobileApp = "TripFair";
+//        String MobileOS = "AND";
+//        String arrange = "A";
+//        String contentTypeId = "12";
+//        String defaultYN = "Y";
+//        String contentId = "2820274";
+//        String areacodeYN = "1";
+//        String addrinfoYN = "Y";
+//        String mapinfoYN = "Y";
+//        String overviewYN = "Y";
+//        String sigunguCode = "1";
+//        String firstImageYN = "Y";
+//        String listYN = "Y";
+//        String catcodeYN = "Y";
+//        String serviceKey = "RmQEk8%2FSDU6FE15Ov2cdNj%2FwLmoHZde3XbSSz2Sik3iKbSK2Yqt0IZRY6WcjwaX1eNp50bLHNIzRBakdUmP37g%3D%3D";
+//
+//        String queryUrl = "http://apis.data.go.kr/B551011/KorService/detailCommon?ServiceKey=" + serviceKey +
+//                "&contentTypeId=" + contentTypeId + "&contentId=" + contentId + "&MobileOS=" + MobileOS + "&MobileApp=" + MobileApp +
+//                "&defaultYN=" + defaultYN + "&firstImageYN=" + firstImageYN +  "&areacodeYN=" + areacodeYN + "&catcodeYN=" + catcodeYN +
+//                "&addrinfoYN=" + addrinfoYN + "&mapinfoYN=" + mapinfoYN + "&overviewYN=" + overviewYN;
+//
+//        try {
+//            URL url= new URL(queryUrl);//문자열로 된 요청 url을 URL 객체로 생성.
+//            InputStream is= url.openStream(); //url위치로 입력스트림 연결
+//
+//            XmlPullParserFactory factory= XmlPullParserFactory.newInstance();
+//            XmlPullParser xpp= factory.newPullParser();
+//            xpp.setInput( new InputStreamReader(is, "UTF-8") ); //inputstream 으로부터 xml 입력받기
+//
+//            String tag;
+//            xpp.next();
+//            int eventType= xpp.getEventType();
+//
+//            while(eventType != XmlPullParser.END_DOCUMENT){
+//                switch(eventType){
+//                    case XmlPullParser.START_DOCUMENT:
+//                        break;
+//
+//                    case XmlPullParser.START_TAG:
+//                        tag= xpp.getName();//태그 이름 얻어오기
+//
+//                        if(tag.equals("item"));
+//                        else if(tag.equals("addr1")) {
+//                            buffer.append("주소 : ");
+//                            xpp.next();
+//                            buffer.append(xpp.getText());
+//                            buffer.append("\n\n");
+//                        }
+//                        else if(tag.equals("firstimage")) {
+//                            buffer.append("사진 : ");
+//                            xpp.next();
+//                            image = xpp.getText();
+//                           // Glide.with(getActivity()).load(image).into(food_image1); //첫번째. food_image id가 전역이 아니라 onCreate 밖에서 안됨.
+//                                                                                     //두번째. getActivity()도 밖에서 되는지 모르겠음.
+//                            buffer.append("\n\n");
+//                        }
+//                        break;
+//                    case XmlPullParser.TEXT:
+//                        break;
+//
+//                    case XmlPullParser.END_TAG:
+//                        tag= xpp.getName();
+//                        if(tag.equals("item")) buffer.append("\n");
+//                        break;
+//                }
+//                eventType = xpp.next();
+//            }
+//
+//        } catch (Exception e) {
+//            // TODO Auto-generated catch blocke.printStackTrace();
+//            Log.d("TAG", "익셉션뜸");
+//        }
+//        return buffer.toString();//StringBuffer 문자열 객체 반환
+//
+//
+//    }
 
 
 }
