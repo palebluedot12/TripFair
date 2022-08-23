@@ -88,9 +88,29 @@ public class GyeonggiTourFragment extends Fragment {
         binding.gt2.setOnClickListener(this::onClick);
         binding.gt3.setOnClickListener(this::onClick);
 
+        //목록 이미지 띄우기
         Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/56/2820256_image2_1.jpg").into(binding.img1);
         Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/24/2820324_image2_1.jpg").into(binding.img2);
         Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/30/2820830_image2_1.jpg").into(binding.img3);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/00/2820600_image2_1.jpg").into(binding.img4);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/61/2820261_image2_1.jpg").into(binding.img7);
+        //Glide.with(getActivity()).load("").into(binding.img8);
+        //Glide.with(getActivity()).load("").into(binding.img9);
+        //Glide.with(getActivity()).load("").into(binding.img10);
+        //Glide.with(getActivity()).load("").into(binding.img11);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/82/2724782_image2_1.jpg").into(binding.img12);
+//        Glide.with(getActivity()).load("").into(binding.img13);
+//        Glide.with(getActivity()).load("").into(binding.img14);
+//        Glide.with(getActivity()).load("").into(binding.img15);
+//        Glide.with(getActivity()).load("").into(binding.img16);
+//        Glide.with(getActivity()).load("").into(binding.img17);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/67/2698667_image2_1.bmp").into(binding.img18);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/37/2698637_image2_1.bmp").into(binding.img19);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/12/2610912_image2_1.bmp").into(binding.img20);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/05/2553505_image2_1.bmp").into(binding.img21);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/24/2552724_image2_1.bmp").into(binding.img22);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/07/2553707_image2_1.bmp").into(binding.img23);
+
         return v;
     }
 

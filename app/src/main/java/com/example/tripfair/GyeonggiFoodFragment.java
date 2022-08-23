@@ -15,6 +15,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.tripfair.databinding.FragmentGyeonggiFoodBinding;
+import com.example.tripfair.databinding.FragmentGyeonggiTourBinding;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -29,6 +31,8 @@ public class GyeonggiFoodFragment extends Fragment {
 
     String data;
     String image, image2, image3, image4, image5 = "";
+    private FragmentGyeonggiFoodBinding binding;
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -39,20 +43,11 @@ public class GyeonggiFoodFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_gyeonggi_food, container, false);
 
-         //파싱된 결과확인!
-        TextView food_text1 = (TextView) v.findViewById(R.id.food_text1);
-        TextView food_text2 = (TextView) v.findViewById(R.id.food_text2);
-        TextView food_text3 = (TextView) v.findViewById(R.id.food_text3);
-        TextView food_text4 = (TextView) v.findViewById(R.id.food_text4);
-        TextView food_text5 = (TextView) v.findViewById(R.id.food_text5);
-        ImageView food_image1 = (ImageView) v.findViewById(R.id.food_image1);
-        ImageView food_image2 = (ImageView) v.findViewById(R.id.food_image2);
-        ImageView food_image3 = (ImageView) v.findViewById(R.id.food_image3);
-        ImageView food_image4 = (ImageView) v.findViewById(R.id.food_image4);
-        ImageView food_image5 = (ImageView) v.findViewById(R.id.food_image5);
+        binding = FragmentGyeonggiFoodBinding.inflate(inflater, container, false);
+        View v = binding.getRoot();
 
+        //파싱된 결과확인!
         Toolbar toolbar = v.findViewById(R.id.toolbar_gyeonggi_food);
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true); // 뒤로가기 버튼, 디폴트로 true만 해도 백버튼이 생김
@@ -78,6 +73,8 @@ public class GyeonggiFoodFragment extends Fragment {
 //            }
 //        }).start();
 
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/20/2820320_image2_1.jpg").into(binding.img5);
+        Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/96/2820296_image2_1.jpg").into(binding.img6);
 
         return v;
     }

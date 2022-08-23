@@ -1,0 +1,345 @@
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/jf_all"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_jeonla_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/jf1">
+
+                <ImageView
+                    android:id="@+id/jf_img1"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="순천 브루어리"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전남 순천시"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ECECEC"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/jf2">
+
+                <ImageView
+                    android:id="@+id/jf_img2"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위인더랜드"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전남 장성군"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ECECEC"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/jf3">
+
+                <ImageView
+                    android:id="@+id/jf_img3"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="별내리마을"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전남 장성군"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ECECEC"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/jf4">
+
+                <ImageView
+                    android:id="@+id/jf_img4"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="토토마마"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전남 장성군"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ECECEC"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/jf5">
+
+                <ImageView
+                    android:id="@+id/jf_img5"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="적정온도(순향가)"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전남 순천시"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ECECEC"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/jf6">
+
+                <ImageView
+                    android:id="@+id/jf_img6"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="다올재 협동조합"
+                    android:textSize="22dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:includeFontPadding="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전남 순천시"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ECECEC"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/jf_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/gtImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/gtTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="테스트"
+                        android:textSize="22dp"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/notosanskr_medium"
+                        android:includeFontPadding="false"
+                        android:letterSpacing="-0.06"
+                        android:layout_marginLeft="20dp"
+                        />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_share"
+                        android:layout_marginEnd="25dp"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/jfAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주소"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawablePadding="8.8dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:includeFontPadding="false"
+                    app:drawableLeftCompat="@drawable/ic_location" />
+
+                <TextView
+                    android:id="@+id/jfTel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="연락처"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginBottom="10dp"
+                    android:includeFontPadding="false"
+                    app:drawableLeftCompat="@drawable/ic_phone" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

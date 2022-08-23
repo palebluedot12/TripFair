@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.tripfair.databinding.FragmentGyeonggiFoodBinding;
+import com.example.tripfair.databinding.FragmentGyeonggiTourBinding;
+import com.example.tripfair.databinding.FragmentHomeBinding;
 import com.kakao.sdk.user.UserApiClient;
 import com.kakao.sdk.user.model.User;
 
@@ -29,11 +32,13 @@ public class HomeFragment extends Fragment {
 
     private Button btn_logout;
     MainActivity mainActivity;
+    private FragmentHomeBinding binding;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_home, container, false);
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        View v = binding.getRoot();
         // Inflate the layout for this fragment
 
 
@@ -67,12 +72,59 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        binding.gangwonTour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(4);
+            }
+        });
+
+        binding.gangwonFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(5);
+            }
+        });
+        binding.chungcheongTour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(6);
+            }
+        });
+        binding.chungcheongFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(7);
+            }
+        });
+        binding.gyeonsangTour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(8);
+            }
+        });
+        binding.gyeonsangFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(9);
+            }
+        });
+        binding.jeonlaTour.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(10);
+            }
+        });
+        binding.jeonlaFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((MainActivity)getActivity()).fragmentChange(11);
+            }
+        });
+
 
         return v;
     }
-
-
-
 
 
     private void updateKakaoLoginUi() {

@@ -27,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
     MypageFragment mypageFragment;
     GyeonggiFoodFragment gyeonggiFoodFragment;
     GyeonggiTourFragment gyeonggiTourFragment;
+    GangwonFoodFragment gangwonFoodFragment;
+    GangwonTourFragment gangwonTourFragment;
+    ChungCheongFoodFragment chungCheongFoodFragment;
+    ChungCheongTourFragment chungCheongTourFragment;
+    GyeongsangFoodFragment gyeongsangFoodFragment;
+    GyeongsangTourFragment gyeongsangTourFragment;
+    JeonlaFoodFragment jeonlaFoodFragment;
+    JeonlaTourFragment jeonlaTourFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
         mypageFragment = new MypageFragment();
         gyeonggiFoodFragment = new GyeonggiFoodFragment();
         gyeonggiTourFragment = new GyeonggiTourFragment();
+        gangwonTourFragment = new GangwonTourFragment();
+        gangwonFoodFragment = new GangwonFoodFragment();
+        chungCheongTourFragment = new ChungCheongTourFragment();
+        chungCheongFoodFragment = new ChungCheongFoodFragment();
+        gyeongsangTourFragment = new GyeongsangTourFragment();
+        gyeongsangFoodFragment = new GyeongsangFoodFragment();
+        jeonlaTourFragment = new JeonlaTourFragment();
+        jeonlaFoodFragment = new JeonlaFoodFragment();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.containers, homeFragment).commit();
 
@@ -73,6 +89,38 @@ public class MainActivity extends AppCompatActivity {
         else if(index == 3){
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.containers, gyeonggiTourFragment).commit();
+        }
+        else if(index == 4){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, gangwonTourFragment).commit();
+        }
+        else if(index == 5){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, gangwonFoodFragment).commit();
+        }
+        else if(index == 6){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, chungCheongTourFragment).commit();
+        }
+        else if(index == 7){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, chungCheongFoodFragment).commit();
+        }
+        else if(index == 8){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, gyeongsangTourFragment).commit();
+        }
+        else if(index == 9){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, gyeongsangFoodFragment).commit();
+        }
+        else if(index == 10){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, jeonlaTourFragment).commit();
+        }
+        else if(index == 11){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.containers, jeonlaFoodFragment).commit();
         }
     }
 
