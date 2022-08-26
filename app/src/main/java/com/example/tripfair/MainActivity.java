@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     HomeFragment homeFragment;
     MapFragment mapFragment;
+    LoungeFragment loungeFragment;
     MypageFragment mypageFragment;
     GyeonggiFoodFragment gyeonggiFoodFragment;
     GyeonggiTourFragment gyeonggiTourFragment;
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         homeFragment = new HomeFragment();
         mapFragment = new MapFragment();
+        loungeFragment = new LoungeFragment();
         mypageFragment = new MypageFragment();
         gyeonggiFoodFragment = new GyeonggiFoodFragment();
         gyeonggiTourFragment = new GyeonggiTourFragment();
@@ -78,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     case R.id.map:
                         getSupportFragmentManager().beginTransaction().replace(R.id.containers, mapFragment).commit();
+                        return true;
+                    case R.id.lounge:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.containers, loungeFragment).commit();
                         return true;
                     case R.id.mypage:
                         getSupportFragmentManager().beginTransaction().replace(R.id.containers, mypageFragment).commit();
