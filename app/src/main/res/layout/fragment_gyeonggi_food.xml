@@ -18,7 +18,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GyeonggiFoodFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/gf_all">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_gyeonggi_food"
@@ -29,7 +30,7 @@
         android:theme="?attr/actionBarTheme"/>
 
     <LinearLayout
-        android:id="@+id/gt5"
+        android:id="@+id/gf5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -69,7 +70,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/gt6"
+        android:id="@+id/gf6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -109,7 +110,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/gt8"
+        android:id="@+id/gf8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -118,7 +119,7 @@
             android:id="@+id/img8"
             android:layout_margin="20dp"
             android:layout_width="match_parent"
-            android:layout_height="270dp"
+            android:layout_height="250dp"
             android:src="@drawable/mildang"/>
 
         <TextView
@@ -150,7 +151,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/gt16"
+        android:id="@+id/gf16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -216,7 +217,7 @@
                         android:id="@+id/gfTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="테스트"
+                        android:text=""
                         android:textSize="22dp"
                         android:textColor="@color/black"
                         android:fontFamily="@font/notosanskr_medium"
@@ -242,8 +243,8 @@
                     android:id="@+id/gfAddress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="주소"
-                    android:textColor="@color/black"
+                    android:text=""
+                    android:textColor="@color/gray"
                     android:fontFamily="@font/notosanskr_medium"
                     android:drawablePadding="8.8dp"
                     android:layout_marginLeft="22dp"
@@ -255,14 +256,83 @@
                     android:id="@+id/gfTel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="연락처"
-                    android:textColor="@color/black"
+                    android:text=""
+                    android:textColor="@color/gray"
                     android:fontFamily="@font/notosanskr_medium"
                     android:drawablePadding="5dp"
                     android:layout_marginLeft="22dp"
                     android:layout_marginBottom="10dp"
                     android:includeFontPadding="false"
                     app:drawableLeftCompat="@drawable/ic_phone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/ic_bookmark"
+                        android:text="북마크"
+                        android:textColor="@color/gray"
+                        android:fontFamily="@font/notosanskr_medium"
+                        android:includeFontPadding="false"
+                        android:letterSpacing="-0.06"
+                        android:background="@android:color/transparent"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/ic_review"
+                        android:text="리뷰쓰기"
+                        android:textColor="@color/gray"
+                        android:fontFamily="@font/notosanskr_medium"
+                        android:includeFontPadding="false"
+                        android:letterSpacing="-0.06"
+                        android:background="@android:color/transparent"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:includeFontPadding="false"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="10dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"/>
+
+                <TextView
+                    android:id="@+id/gfoverview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:includeFontPadding="false"
+                    android:letterSpacing="-0.06"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
         </FrameLayout>

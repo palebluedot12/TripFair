@@ -70,48 +70,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:id="@+id/gwt2">
-
-                <ImageView
-                    android:id="@+id/gwt_img2"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/ipyeong"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="평창 아이평창유"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 평창군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:id="@+id/gwt3">
 
                 <ImageView
@@ -440,131 +398,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:id="@+id/gwt12">
-
-                <ImageView
-                    android:id="@+id/gwt_img12"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/mangle"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="맹글(레몬트리협동조합)"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 정선군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/gwt13">
-
-                <ImageView
-                    android:id="@+id/gwt_img13"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="백이동골"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 홍천군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/gwt14">
-
-                <ImageView
-                    android:id="@+id/gwt_img14"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/giseok"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="운기석9020"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 정선군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:id="@+id/gwt15">
 
                 <ImageView
@@ -588,48 +421,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="강원 정선군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/gwt16">
-
-                <ImageView
-                    android:id="@+id/gwt_img16"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/yangsurf"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="양양서핑학교"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 양양군"
                     android:textColor="@color/black"
                     android:fontFamily="@font/notosanskr_medium"
                     android:drawableLeft="@drawable/ic_location"
@@ -712,132 +503,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="강원 평창군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/gwt20">
-
-                <ImageView
-                    android:id="@+id/gwt_img20"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/songtteok"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="송천떡마을 캠핑장"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 양양군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/gwt21">
-
-                <ImageView
-                    android:id="@+id/gwt_img21"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/surfcity"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="양양 서프시티 협동조합"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 양양군"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:drawableLeft="@drawable/ic_location"
-                    android:drawablePadding="5dp"
-                    android:layout_marginLeft="22dp"
-                    android:layout_marginBottom="10dp"/>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="#ECECEC"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:id="@+id/gwt22">
-
-                <ImageView
-                    android:id="@+id/gwt_img22"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:src="@drawable/arari"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="정선 아라리한과농원"
-                    android:textSize="22dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/notosanskr_medium"
-                    android:letterSpacing="-0.06"
-                    android:layout_marginLeft="20dp"
-                    android:includeFontPadding="false"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="강원 정선군"
                     android:textColor="@color/black"
                     android:fontFamily="@font/notosanskr_medium"
                     android:drawableLeft="@drawable/ic_location"
@@ -944,7 +609,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
                 <ImageView
-                    android:id="@+id/gtImage"
+                    android:id="@+id/gwtImage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -955,7 +620,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp">
                     <TextView
-                        android:id="@+id/gtTitle"
+                        android:id="@+id/gwtTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="테스트"
@@ -981,11 +646,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/gtAddress"
+                    android:id="@+id/gwtAddress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="주소"
-                    android:textColor="@color/black"
+                    android:textColor="@color/gray"
                     android:fontFamily="@font/notosanskr_medium"
                     android:drawablePadding="8.8dp"
                     android:layout_marginLeft="22dp"
@@ -994,11 +659,11 @@
                     app:drawableLeftCompat="@drawable/ic_location" />
 
                 <TextView
-                    android:id="@+id/gtTel"
+                    android:id="@+id/gwtTel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="연락처"
-                    android:textColor="@color/black"
+                    android:textColor="@color/gray"
                     android:fontFamily="@font/notosanskr_medium"
                     android:drawablePadding="5dp"
                     android:layout_marginLeft="22dp"
@@ -1006,6 +671,76 @@
                     android:includeFontPadding="false"
                     app:drawableLeftCompat="@drawable/ic_phone" />
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/bookmark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/ic_bookmark"
+                        android:text="북마크"
+                        android:textColor="@color/gray"
+                        android:fontFamily="@font/notosanskr_medium"
+                        android:includeFontPadding="false"
+                        android:letterSpacing="-0.06"
+                        android:background="@android:color/transparent"/>
+
+                    <Button
+                        android:id="@+id/review"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/ic_review"
+                        android:text="리뷰쓰기"
+                        android:textColor="@color/gray"
+                        android:fontFamily="@font/notosanskr_medium"
+                        android:includeFontPadding="false"
+                        android:letterSpacing="-0.06"
+                        android:background="@android:color/transparent"/>
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:includeFontPadding="false"
+                    android:letterSpacing="-0.06"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="10dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"/>
+
+                <TextView
+                    android:id="@+id/gwtoverview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:includeFontPadding="false"
+                    android:letterSpacing="-0.06"
+                    android:text=""
+                    android:textSize="15dp"
+                    android:textColor="@color/black"/>
 
             </LinearLayout>
         </FrameLayout>

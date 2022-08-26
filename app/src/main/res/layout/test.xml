@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_mypage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="프로필"
+       android:textSize="20dp"
+       android:layout_marginLeft="20dp"
+       android:gravity="center"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:src="@color/lightgray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bookmark"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="찜 목록"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow"
+            android:layout_gravity="center"
+            android:layout_marginEnd="35dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#F3F3F3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_my_review"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 리뷰"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow"
+            android:layout_gravity="center"
+            android:layout_marginEnd="35dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#F3F3F3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_my_lounge"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY 공정라운지"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow"
+            android:layout_gravity="center"
+            android:layout_marginEnd="35dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#F3F3F3"/>
+
+
+
+</LinearLayout>
