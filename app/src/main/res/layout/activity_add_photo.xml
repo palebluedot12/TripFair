@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_lounge_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:textSize="20dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.06"/>
+
+    <EditText
+        android:id="@+id/addphoto_edit"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        android:gravity="left"
+        android:hint="여행 후기를 작성해주세요."
+        android:textSize="17dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사진"
+        android:textSize="20dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.06"/>
+    <ImageView
+        android:id="@+id/addphoto_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edittext_rounded_corner_rectangle"
+        android:layout_marginEnd="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여행 지역은 어디였나요?"
+        android:textSize="20dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.06"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+            <Button
+                android:id="@+id/btn_gyeongin"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="경인"
+                android:textSize="15dp"
+                style="?attr/materialButtonOutlinedStyle"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_gangwon"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                style="?attr/materialButtonOutlinedStyle"
+                android:text="강원"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_chungcheong"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                style="?attr/materialButtonOutlinedStyle"
+                android:text="충청"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_gyungsang"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                style="?attr/materialButtonOutlinedStyle"
+                android:text="경상"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_jeonla"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                style="?attr/materialButtonOutlinedStyle"
+                android:text="전라"
+                android:textSize="15dp"
+                android:textColor="@color/black"/>
+
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/addphoto_btn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/ic_bar"
+       ></ImageView>
+</LinearLayout>

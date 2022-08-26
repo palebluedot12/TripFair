@@ -23,6 +23,22 @@
           }
         },
         {
+          "client_id": "606257059725-5t1okh7imp0r8ar6chkq7a2sgqsm6kes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "c4f39ce451f9a5f47dd36c46fc2b3070b1476f97"
+          }
+        },
+        {
+          "client_id": "606257059725-jushhksiqh48ckdmn4mj3a3bmr7nfdrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "6a9888a98c325153e0122d831bfc22ad55cf5998"
+          }
+        },
+        {
           "client_id": "606257059725-kmcedh11fvp08i5sd3cu3trivqfk4ste.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -23,27 +23,30 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <!--인텐트필터 여기다 넣으면 시작점 여기로 바뀜!-->
         </activity>
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
-
+        <activity android:name=".GoogleLogin" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
+            android:name=".CommentActivity"
+          /><activity
+        android:name=".AddPhotoActivity"
+        />
+
+        <activity
             android:name=".LoginActivity"
             android:exported="true" >
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

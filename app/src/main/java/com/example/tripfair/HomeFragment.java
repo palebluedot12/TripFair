@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.ViewFlipper;
 
 import com.example.tripfair.databinding.FragmentGyeonggiFoodBinding;
 import com.example.tripfair.databinding.FragmentGyeonggiTourBinding;
@@ -29,7 +30,7 @@ import kotlin.Unit;
 import kotlin.jvm.functions.Function2;
 
 public class HomeFragment extends Fragment {
-
+    ViewFlipper v_fllipper;
     private Button btn_logout;
     MainActivity mainActivity;
     private FragmentHomeBinding binding;
@@ -121,11 +122,26 @@ public class HomeFragment extends Fragment {
                 ((MainActivity)getActivity()).fragmentChange(11);
             }
         });
+        int images[] = {
+                R.drawable.ic_group_15,
+                R.drawable.ic_group_15,
+                R.drawable.ic_group_15};
 
+        v_fllipper = (ViewFlipper) v.findViewById(R.id.image_slide);
+        for(int image : images) {    fllipperImages(image);}
 
         return v;
     }
-
+    public void fllipperImages(int image){
+        ImageView imageView = new ImageView(getActivity());
+        imageView.setBackgroundResource(image);
+        v_fllipper.addView(imageView);      // 이미지 추가
+        v_fllipper.setFlipInterval(4000);       // 자동 이미지 슬라이드 딜레이시간(1000 당 1초)
+        v_fllipper.setAutoStart(true);          // 자동 시작 유무 설정
+        // animation;
+        v_fllipper.setInAnimation(getActivity(), android.R.anim.slide_in_left);
+        v_fllipper.setOutAnimation(getActivity(), android.R.anim.slide_out_right);
+    }
 
     private void updateKakaoLoginUi() {
         UserApiClient.getInstance().me(new Function2<User, Throwable, Unit>() {
