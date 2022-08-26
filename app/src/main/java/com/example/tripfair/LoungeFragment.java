@@ -125,7 +125,7 @@ public class LoungeFragment extends Fragment {
 //        setFrag(0);
 
 
-        setToolbarDefault();
+//        setToolbarDefault();
         registerPushToken();
 //        registerFollow();
         return v;
@@ -168,12 +168,12 @@ public class LoungeFragment extends Fragment {
         }
     }*/
 
-    private void setToolbarDefault() {
-        toolbar_username.setVisibility(View.GONE);
-        toolbar_btn_back.setVisibility(View.GONE);
-        toolbar_title_image.setVisibility(View.VISIBLE);
-
-    }
+//    private void setToolbarDefault() {
+//        toolbar_username.setVisibility(View.GONE);
+//        toolbar_btn_back.setVisibility(View.GONE);
+//        toolbar_title_image.setVisibility(View.VISIBLE);
+//
+//    }
 //    public static void hello(){
 //        toolbar_btn_back.setOnClickListener(new View.OnClickListener() {
 //            @Override
