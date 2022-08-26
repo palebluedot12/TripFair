@@ -54,6 +54,15 @@ public class GyeonggiTourFragment extends Fragment implements MainActivity.OnBac
         binding = FragmentGyeonggiTourBinding.inflate(inflater, container, false);
         View v = binding.getRoot();
 
+
+        binding.review.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), AddPhotoActivity.class); //그룹 만들기 화면으로 연결
+                startActivity(intent); //액티비티 열기
+            }
+        });
+
         gyeonggiTourFragment = new GyeonggiTourFragment();
 
         Toolbar toolbar = v.findViewById(R.id.toolbar_gyeonggi_tour);

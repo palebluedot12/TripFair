@@ -596,6 +596,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"/>
                     <Button
+                        android:id="@+id/bookmark"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:drawableTop="@drawable/ic_bookmark"
@@ -607,6 +608,7 @@
                         android:background="@android:color/transparent"/>
 
                     <Button
+                        android:id="@+id/review"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:drawableTop="@drawable/ic_review"
