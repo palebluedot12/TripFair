@@ -1,0 +1,149 @@
+{
+  "project_info": {
+    "project_number": "606257059725",
+    "firebase_url": "https://tripfair-22b61-default-rtdb.firebaseio.com",
+    "project_id": "tripfair-22b61",
+    "storage_bucket": "tripfair-22b61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606257059725:android:2245edec0b966c86904fc4",
+        "android_client_info": {
+          "package_name": "com.example.tripfair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606257059725-41nh7o9vibsdv2ljp82hc3sa9naf23f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "fc5c878d9514bf2953878c95483ad3cd4746222d"
+          }
+        },
+        {
+          "client_id": "606257059725-5t1okh7imp0r8ar6chkq7a2sgqsm6kes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "c4f39ce451f9a5f47dd36c46fc2b3070b1476f97"
+          }
+        },
+        {
+          "client_id": "606257059725-jushhksiqh48ckdmn4mj3a3bmr7nfdrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "6a9888a98c325153e0122d831bfc22ad55cf5998"
+          }
+        },
+        {
+          "client_id": "606257059725-kmcedh11fvp08i5sd3cu3trivqfk4ste.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tripfair",
+            "certificate_hash": "64a35822dfbfa1cddb44807541d21c231bfb570f"
+          }
+        },
+        {
+          "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_e-SKDvUQmYmN8XqE2Ng7kTix_bmO1hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606257059725:android:9ca1b4a4606126fd904fc4",
+        "android_client_info": {
+          "package_name": "com.tripfair.tripfair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606257059725-1v4j9gmvikeutmmn259463ctjdflm78p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripfair.tripfair",
+            "certificate_hash": "fc5c878d9514bf2953878c95483ad3cd4746222d"
+          }
+        },
+        {
+          "client_id": "606257059725-eppd0tvbpph5mgevdf0q4hc3j1ivpp4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripfair.tripfair",
+            "certificate_hash": "29ee95175eff07b8fdec0917bb4eb2e8c9fe2be0"
+          }
+        },
+        {
+          "client_id": "606257059725-fnknuldp1q8jb3v9bj478fofm9sjnatr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripfair.tripfair",
+            "certificate_hash": "64a35822dfbfa1cddb44807541d21c231bfb570f"
+          }
+        },
+        {
+          "client_id": "606257059725-q6imp6h5ka6dkfauu2p5te60vt7adqqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripfair.tripfair",
+            "certificate_hash": "6a9888a98c325153e0122d831bfc22ad55cf5998"
+          }
+        },
+        {
+          "client_id": "606257059725-qkj9lrp46ebraf2kgha29d8ialan4nmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripfair.tripfair",
+            "certificate_hash": "c4f39ce451f9a5f47dd36c46fc2b3070b1476f97"
+          }
+        },
+        {
+          "client_id": "606257059725-v0lrtso7oed6h4s8jr0aef4rnjt2i10k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tripfair.tripfair",
+            "certificate_hash": "12d2eb2f5143419e1f41403bebffb42ea3710c37"
+          }
+        },
+        {
+          "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_e-SKDvUQmYmN8XqE2Ng7kTix_bmO1hU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606257059725-kassmu2jknlhebevvrjad5l4sunsb7b5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
