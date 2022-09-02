@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.tripfair">
+    package="com.tripfair.tripfair">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
-        android:name=".GlobalHelper"
+        android:name="com.tripfair.tripfair.GlobalHelper"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -21,7 +21,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="32" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.tripfair.tripfair.MainActivity"
             android:exported="true">
 
             <!--인텐트필터 여기다 넣으면 시작점 여기로 바뀜!-->
@@ -30,18 +30,21 @@
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
-        <activity android:name=".GoogleLogin" />
+        <activity android:name="com.tripfair.tripfair.GoogleLogin" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.tripfair.tripfair.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".CommentActivity"
+            android:name="com.tripfair.tripfair.SignUp"
+            />
+        <activity
+            android:name="com.tripfair.tripfair.CommentActivity"
           /><activity
-        android:name=".AddPhotoActivity"
+        android:name="com.tripfair.tripfair.AddPhotoActivity"
         />
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.tripfair.tripfair.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
