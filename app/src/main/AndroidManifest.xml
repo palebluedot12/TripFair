@@ -38,6 +38,9 @@
             android:name="com.tripfair.tripfair.SignUp"
             />
         <activity
+            android:name="com.tripfair.tripfair.EmailLoginActivity"
+            />
+        <activity
             android:name="com.tripfair.tripfair.CommentActivity"
           /><activity
         android:name="com.tripfair.tripfair.AddPhotoActivity"

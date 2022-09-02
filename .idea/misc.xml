@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/drawable/ic_group_17.xml" value="0.299" />
+        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_email_login.xml" value="0.25" />
         <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_login.xml" value="0.3482789855072464" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_sign_up.xml" value="0.35643115942028986" />
+        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_signup.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/fragment_gangwon_food.xml" value="0.18489583333333334" />
         <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/fragment_lounge.xml" value="0.34010416666666665" />

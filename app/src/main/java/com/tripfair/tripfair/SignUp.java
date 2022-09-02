@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -18,7 +19,7 @@ import com.google.firebase.auth.FirebaseAuth;;
 
 public class SignUp extends AppCompatActivity {
     private EditText edtSignEmail,edtSignPwd,edtSignName;
-    private Button btnSignUpFinish;
+    private ImageView btnSignUpFinish;
     private FirebaseAuth mFirebaseAuth;
 
     @Override
@@ -28,7 +29,7 @@ public class SignUp extends AppCompatActivity {
 
         edtSignEmail = findViewById(R.id.edtSignEmail);
         edtSignPwd = findViewById(R.id.edtSignPwd);
-        edtSignName = findViewById(R.id.edtSignName);
+
         btnSignUpFinish = findViewById(R.id.btnSignUpFinish);
 
         mFirebaseAuth = FirebaseAuth.getInstance();

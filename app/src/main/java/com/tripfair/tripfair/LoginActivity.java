@@ -21,9 +21,9 @@ import com.kakao.auth.Session;
 import com.kakao.usermgmt.LoginButton;
 
 public class LoginActivity extends AppCompatActivity {
-    private ImageView mKakaoLoginBtn,mGoogleLoginBtn;
+    private ImageView mKakaoLoginBtn,mGoogleLoginBtn,EmailLoginBtn;
     private LoginButton mKakaoLoginBtnBasic;
-    private TextView textJoin;
+
     private FirebaseAuth mFirebaseAuth;
     private KakaoLogin.KakaoSessionCallback sessionCallback;
     private EditText edtEmail, edtPassword;
@@ -43,44 +43,26 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         edtEmail = findViewById(R.id.edtEmail);
         edtPassword = findViewById(R.id.edtPassword);
-        btnLogin = findViewById(R.id.btnLogin);
-        textJoin = findViewById(R.id.textJoin);
+
         mFirebaseAuth = FirebaseAuth.getInstance();
+        EmailLoginBtn=findViewById(R.id.btn_email_login);
         mKakaoLoginBtn = findViewById(R.id.btn_kakao_login);
         mKakaoLoginBtnBasic = findViewById(R.id.btn_kakao_login_basic);
         mGoogleLoginBtn = findViewById(R.id.btn_google_login);
         mGoogleLoginBtn.setOnClickListener(mGoogleLoginListener);
 
-        textJoin.setOnClickListener(new View.OnClickListener() {
+
+        EmailLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, SignUp.class);
+            public void onClick(View view){
+                Intent intent =          new Intent(LoginActivity.this, EmailLoginActivity.class);
                 startActivity(intent);
+                finish();
             }
-        });
-
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            String strEmail = edtEmail.getText().toString();
-                                            String strPwd = edtPassword.getText().toString();
-                                            mFirebaseAuth.signInWithEmailAndPassword(strEmail, strPwd)
-                                                    .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
-                                                        @Override
-                                                        public void onComplete(@NonNull Task<AuthResult> task) {
-                                                            if (task.isSuccessful()) {
-                                                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                                                                startActivity(intent);
-                                                                finish();
-                                                            } else {
-                                                                Toast.makeText(LoginActivity.this, "이메일과 비밀번호를 올바르게 작성하세요", Toast.LENGTH_SHORT).show();
-                                                            }
 
 
-                                                        }
-                                                    });
-                                        }
-                                    });
+                });
+
         mKakaoLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
