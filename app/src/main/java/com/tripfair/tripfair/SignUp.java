@@ -24,7 +24,7 @@ public class SignUp extends AppCompatActivity {
     private EditText edtSignEmail,edtSignPwd,edtSignName;
     private ImageView btnSignUpFinish;
     private FirebaseAuth mFirebaseAuth;
-    private CheckBox checkbox_gaein, checkbox_service, checkbox_location;
+    private CheckBox checkbox_gaein, checkbox_service, checkbox_location,checkbox_age;
     private TextView service_yakgwan, gaein_yakgwan, location_yakgwan;
 
     @Override
@@ -43,7 +43,7 @@ public class SignUp extends AppCompatActivity {
         service_yakgwan = findViewById(R.id.service_yakgwan);
         gaein_yakgwan = findViewById(R.id.gaein_yakgwan);
         location_yakgwan = findViewById(R.id.location_yakgwan);
-
+        checkbox_age=findViewById(R.id.checkbox_age);
         service_yakgwan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,7 +76,7 @@ public class SignUp extends AppCompatActivity {
                 String strEmail = edtSignEmail.getText().toString();
                 String strPwd = edtSignPwd.getText().toString();
                 int strLength = strPwd.length();
-                if(strLength>=6 && checkbox_gaein.isChecked() && checkbox_service.isChecked() && checkbox_location.isChecked()){
+                if(strLength>=6 && checkbox_gaein.isChecked() && checkbox_service.isChecked() && checkbox_location.isChecked() && checkbox_age.isChecked()){
                     createUser(strEmail,strPwd);
                 }else{
                     Toast.makeText(SignUp.this, "이용약관 동의 필수 및, 비밀번호는 6자리 이상이여야 합니다.", Toast.LENGTH_SHORT).show();
