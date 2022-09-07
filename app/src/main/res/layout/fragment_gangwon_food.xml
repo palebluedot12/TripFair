@@ -1,18 +1,17 @@
 <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical">
 
     <LinearLayout
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/gwf_all"
-            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -25,17 +24,17 @@
                 android:minHeight="?attr/actionBarSize"
                 android:theme="?attr/actionBarTheme"/>
 
+            <ImageView
+                android:id="@+id/gwf_img1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:id="@+id/gwf1">
-
-                <ImageView
-                    android:id="@+id/gwf_img1"
-                    android:layout_margin="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -344,12 +343,12 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"/>
 
-                    <ImageView
-                        android:layout_gravity="center"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_share"
-                        android:layout_marginEnd="25dp"/>
+<!--                    <ImageView-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:src="@drawable/ic_share"-->
+<!--                        android:layout_marginEnd="25dp"/>-->
                 </LinearLayout>
 
                 <TextView
@@ -378,45 +377,45 @@
                     android:includeFontPadding="false"
                     app:drawableLeftCompat="@drawable/ic_phone" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
 
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"/>
-                    <Button
-                        android:id="@+id/bookmark"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:drawableTop="@drawable/ic_bookmark"
-                        android:text="북마크"
-                        android:textColor="@color/gray"
-                        android:fontFamily="@font/notosanskr_medium"
-                        android:includeFontPadding="false"
-                        android:letterSpacing="-0.06"
-                        android:background="@android:color/transparent"/>
+<!--                    <View-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="0dp"-->
+<!--                        android:layout_weight="1"/>-->
+<!--                    <Button-->
+<!--                        android:id="@+id/bookmark"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:drawableTop="@drawable/ic_bookmark"-->
+<!--                        android:text="북마크"-->
+<!--                        android:textColor="@color/gray"-->
+<!--                        android:fontFamily="@font/notosanskr_medium"-->
+<!--                        android:includeFontPadding="false"-->
+<!--                        android:letterSpacing="-0.06"-->
+<!--                        android:background="@android:color/transparent"/>-->
 
-                    <Button
-                        android:id="@+id/review"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:drawableTop="@drawable/ic_review"
-                        android:text="리뷰쓰기"
-                        android:textColor="@color/gray"
-                        android:fontFamily="@font/notosanskr_medium"
-                        android:includeFontPadding="false"
-                        android:letterSpacing="-0.06"
-                        android:background="@android:color/transparent"/>
+<!--                    <Button-->
+<!--                        android:id="@+id/review"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:drawableTop="@drawable/ic_review"-->
+<!--                        android:text="리뷰쓰기"-->
+<!--                        android:textColor="@color/gray"-->
+<!--                        android:fontFamily="@font/notosanskr_medium"-->
+<!--                        android:includeFontPadding="false"-->
+<!--                        android:letterSpacing="-0.06"-->
+<!--                        android:background="@android:color/transparent"/>-->
 
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"/>
+<!--                    <View-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="0dp"-->
+<!--                        android:layout_weight="1"/>-->
 
-                </LinearLayout>
+<!--                </LinearLayout>-->
 
                 <TextView
                     android:layout_width="wrap_content"

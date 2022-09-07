@@ -16,12 +16,12 @@
         android:title="내주변"
         app:showAsAction="always"/>
 
-    <item
-        android:id="@+id/lounge"
-        android:enabled="true"
-        android:icon="@drawable/ic_lounge"
-        android:title="공정라운지"
-        app:showAsAction="always"/>
+<!--    <item-->
+<!--        android:id="@+id/lounge"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_lounge"-->
+<!--        android:title="공정라운지"-->
+<!--        app:showAsAction="always"/>-->
 
     <item
         android:id="@+id/mypage"

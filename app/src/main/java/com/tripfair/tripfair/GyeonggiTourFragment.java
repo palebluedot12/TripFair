@@ -45,13 +45,13 @@ public class GyeonggiTourFragment extends Fragment implements MainActivity.OnBac
         View v = binding.getRoot();
 
 
-        binding.review.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), AddPhotoActivity.class); //그룹 만들기 화면으로 연결
-                startActivity(intent); //액티비티 열기
-            }
-        });
+//        binding.review.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getActivity(), AddPhotoActivity.class); //그룹 만들기 화면으로 연결
+//                startActivity(intent); //액티비티 열기
+//            }
+//        });
 
         gyeonggiTourFragment = new GyeonggiTourFragment();
 
@@ -124,17 +124,17 @@ public class GyeonggiTourFragment extends Fragment implements MainActivity.OnBac
         Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/24/2552724_image2_1.bmp").into(binding.img22);
         Glide.with(getActivity()).load("http://tong.visitkorea.or.kr/cms/resource/07/2553707_image2_1.bmp").into(binding.img23);
 
-        binding.share.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-                sharingIntent.setType("text/plain");		// 고정 text
-                sharingIntent.putExtra(Intent.EXTRA_TEXT, "트립페어 - 함께 만들어가는 공정의 가치 [링크]");
-
-                Intent chooser = Intent.createChooser(sharingIntent, "친구에게 공유하기");
-                startActivity(sharingIntent);
-            }
-        });
+//        binding.share.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+//                sharingIntent.setType("text/plain");		// 고정 text
+//                sharingIntent.putExtra(Intent.EXTRA_TEXT, "트립페어 - 함께 만들어가는 공정의 가치 [링크]");
+//
+//                Intent chooser = Intent.createChooser(sharingIntent, "친구에게 공유하기");
+//                startActivity(sharingIntent);
+//            }
+//        });
 
         return v;
     }

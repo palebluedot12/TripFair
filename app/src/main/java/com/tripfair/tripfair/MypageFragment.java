@@ -52,20 +52,20 @@ public class MypageFragment extends Fragment {
         btnGaein = v.findViewById(R.id.btn_gaein);
         btnLocation = v.findViewById(R.id.btn_location);
         btnOpensource = v.findViewById(R.id.btn_opensource);
-        mylounge =v.findViewById(R.id.my_lounge);
+//        mylounge =v.findViewById(R.id.my_lounge);
 
 //        initView();
-        mylounge.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Bundle bundle = new Bundle();
-                String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-                bundle.putString("destinationUid",uid);
-                frag5.setArguments(bundle);
-                getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.containers, frag5).commit();
-            }
-        });
+//        mylounge.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Bundle bundle = new Bundle();
+//                String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
+//                bundle.putString("destinationUid",uid);
+//                frag5.setArguments(bundle);
+//                getActivity().getSupportFragmentManager().beginTransaction()
+//                        .replace(R.id.containers, frag5).commit();
+//            }
+//        });
 
         btnServiceYakgwan.setOnClickListener(new View.OnClickListener() {
             @Override

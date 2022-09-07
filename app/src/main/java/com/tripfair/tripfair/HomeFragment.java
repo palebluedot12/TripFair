@@ -1,5 +1,6 @@
 package com.tripfair.tripfair;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -128,6 +129,21 @@ public class HomeFragment extends Fragment {
                 R.drawable.ic_group_15};
 
         v_fllipper = (ViewFlipper) v.findViewById(R.id.image_slide);
+        v_fllipper.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Dialog dialog = new Dialog(getActivity());
+                dialog.setContentView(R.layout.banner);
+                dialog.setTitle("TripFair");
+
+
+
+                ImageView iv = (ImageView) dialog.findViewById(R.id.image);
+                iv.setImageResource(R.drawable.banner);
+
+                dialog.show();
+            }
+        });
         for(int image : images) {    fllipperImages(image);}
 
         return v;

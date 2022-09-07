@@ -72,9 +72,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.map:
                         getSupportFragmentManager().beginTransaction().replace(R.id.containers, mapFragment).commit();
                         return true;
-                    case R.id.lounge:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.containers, loungeFragment).commit();
-                        return true;
+//                    case R.id.lounge:
+//                        getSupportFragmentManager().beginTransaction().replace(R.id.containers, loungeFragment).commit();
+//                        return true;
                     case R.id.mypage:
                         getSupportFragmentManager().beginTransaction().replace(R.id.containers, mypageFragment).commit();
                         return true;

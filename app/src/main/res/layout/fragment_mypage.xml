@@ -13,129 +13,129 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:src="@color/lightgray"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:src="@color/lightgray"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="컨텐츠"
-            android:textSize="18dp"
-            android:fontFamily="@font/notosanskr_bold"
-            android:includeFontPadding="false"
-            android:textColor="@color/black"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-    </LinearLayout>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="컨텐츠"-->
+<!--            android:textSize="18dp"-->
+<!--            android:fontFamily="@font/notosanskr_bold"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
+<!--    </LinearLayout>-->
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="#F3F3F3"/>
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#F3F3F3"/>-->
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="찜 목록"
-            android:textSize="18dp"
-            android:textColor="@color/black"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrow"
-            android:layout_gravity="center"
-            android:layout_marginEnd="35dp"/>
-    </LinearLayout>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="찜 목록"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_arrow"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginEnd="35dp"/>-->
+<!--    </LinearLayout>-->
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="#F3F3F3"/>
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#F3F3F3"/>-->
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="내 리뷰"
-            android:textSize="18dp"
-            android:textColor="@color/black"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"/>
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrow"
-            android:layout_gravity="center"
-            android:layout_marginEnd="35dp"/>
-    </LinearLayout>
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="내 리뷰"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="15dp"/>-->
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_arrow"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginEnd="35dp"/>-->
+<!--    </LinearLayout>-->
 
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="#F3F3F3"/>
+<!--    <View-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:background="#F3F3F3"/>-->
 
-    <LinearLayout
-        android:id="@+id/my_lounge"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:id="@+id/my_lounge"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="55dp"-->
+<!--        android:orientation="horizontal">-->
 
-        <TextView
+<!--        <TextView-->
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
-            android:text="MY 공정라운지"
-            android:textColor="@color/black"
-            android:textSize="18dp" />
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="15dp"-->
+<!--            android:text="MY 공정라운지"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp" />-->
 
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1" />-->
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginEnd="35dp"
-            android:src="@drawable/ic_arrow" />
-    </LinearLayout>
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginEnd="35dp"-->
+<!--            android:src="@drawable/ic_arrow" />-->
+<!--    </LinearLayout>-->
 
     <View
         android:layout_width="wrap_content"
