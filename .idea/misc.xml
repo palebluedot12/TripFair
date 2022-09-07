@@ -3,16 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/drawable/ic_group_17.xml" value="0.299" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_email_login.xml" value="0.25" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_login.xml" value="0.3482789855072464" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/activity_signup.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/fragment_gangwon_food.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/fragment_lounge.xml" value="0.34010416666666665" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/item_comment.xml" value="0.34010416666666665" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/signup.xml" value="0.3482789855072464" />
-        <entry key="..\:/Users/gnsdl/AndroidStudioProjects/TripFair3/app/src/main/res/layout/test.xml" value="0.34010416666666665" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable-v24/ic_home.xml" value="0.2925" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1535" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/edittext_custom_nickname.xml" value="0.133" />
@@ -35,11 +25,16 @@
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/drawable/splash.xml" value="0.2635" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/font-v26/font.xml" value="0.196875" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/font/font.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_add_photo.xml" value="0.14605263157894738" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_comment.xml" value="0.14605263157894738" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_email_login.xml" value="0.18" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_second.xml" value="0.12532894736842104" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/frag5.xml" value="0.14605263157894738" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_any.xml" value="0.23026315789473684" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_chung_cheong_food.xml" value="0.12532894736842104" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_chung_cheong_tour.xml" value="0.12532894736842104" />
@@ -53,9 +48,12 @@
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_jeonla_food.xml" value="0.12532894736842104" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_jeonla_tour.xml" value="0.12532894736842104" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_lounge.xml" value="0.12039473684210526" />
-        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_map.xml" value="0.25" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_map.xml" value="0.14" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/fragment_mypage.xml" value="0.21973684210526315" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/item_comment.xml" value="0.14605263157894738" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/item_detail.xml" value="0.14605263157894738" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/test.xml" value="0.2" />
+        <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/layout/test2.xml" value="0.22" />
         <entry key="..\:/Users/sm524/AndroidStudioProjects/TripFair/app/src/main/res/menu/bottom_menu.xml" value="0.21973684210526315" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TripFair2/app/src/main/res/layout/activity_login.xml" value="0.20742753623188406" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TripFair2/app/src/main/res/layout/activity_register.xml" value="0.36614583333333334" />
@@ -65,51 +63,6 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/TripFair2/app/src/main/res/layout/fragment_home.xml" value="0.20742753623188406" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TripFair2/app/src/main/res/layout/fragment_map.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/TripFair2/app/src/main/res/layout/fragment_mypage.xml" value="0.33" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.164" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/addphoto_btn.xml" value="0.1605" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/background_rounding.xml" value="0.1185" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/edittext_rounded_corner_rectangle.xml" value="0.2025" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic____.xml" value="0.123" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_arrow.xml" value="0.193" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_bar.xml" value="0.2095" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_baseline_chat_24.xml" value="0.193" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.193" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_google_login.xml" value="0.322" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_group_15.xml" value="0.2095" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_home.xml" value="0.322" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_my_review.xml" value="0.348" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_mylocation.xml" value="0.348" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_mypage.xml" value="0.348" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_phone.xml" value="0.348" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_review.xml" value="0.348" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_share.xml" value="0.348" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_tripfair.xml" value="0.193" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/drawable/ic_tripfair_splash.xml" value="0.193" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/activity_add_photo.xml" value="0.2159367396593674" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/activity_comment.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/activity_second.xml" value="0.12434210526315789" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/activity_splash.xml" value="0.12434210526315789" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/frag5.xml" value="0.21973684210526315" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_chung_cheong_food.xml" value="0.12664473684210525" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_chung_cheong_tour.xml" value="0.12664473684210525" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_community.xml" value="0.18385416666666668" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_gangwon_food.xml" value="0.10427631578947369" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_gangwon_tour.xml" value="0.23125" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_gyeonggi_food.xml" value="0.23125" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_gyeonggi_tour.xml" value="0.23125" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_gyeongsang_food.xml" value="0.23125" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_gyeongsang_tour.xml" value="0.11360698125404008" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_home.xml" value="0.18" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_lounge.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_map.xml" value="0.12664473684210525" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/fragment_mypage.xml" value="0.2" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/image_view.xml" value="0.2305921052631579" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/item_comment.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/item_detail.xml" value="0.22" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/layout/test.xml" value="0.3463541666666667" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/TripFair4/app/src/main/res/menu/bottom_menu.xml" value="0.18" />
       </map>
     </option>
   </component>
