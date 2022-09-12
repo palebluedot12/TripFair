@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -136,7 +137,10 @@ public class HomeFragment extends Fragment {
                 dialog.setContentView(R.layout.banner);
                 dialog.setTitle("TripFair");
 
-
+                WindowManager.LayoutParams params = dialog.getWindow().getAttributes();
+                params.width = WindowManager.LayoutParams.MATCH_PARENT;
+                params.height = WindowManager.LayoutParams.WRAP_CONTENT;
+                dialog.getWindow().setAttributes((WindowManager.LayoutParams) params);
 
                 ImageView iv = (ImageView) dialog.findViewById(R.id.image);
                 iv.setImageResource(R.drawable.banner);
